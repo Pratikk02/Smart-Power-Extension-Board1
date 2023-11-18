@@ -1,4 +1,3 @@
-//libraries
 #include "WiFi.h"
 #include <HTTPClient.h>
 #include <Arduino_JSON.h>
@@ -16,7 +15,7 @@ unsigned long previousTime = 0;
 
 String outputsState;
 
-//single relay
+//single relay pin
 int relayPin = 26;
 
 void setup() {
